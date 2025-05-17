@@ -5,4 +5,4 @@ from django.shortcuts import render
 ENV = os.environ.get('ENV', 'dev')
 
 def hello_world(request):
-    return HttpResponse(f"<h1>Hello, World!</h1><p>Środowisko: {ENV}</p><p>Autor: <b>Bartosz Bryniarski</b></p>")
+    return HttpResponse(f"<h1>Hello, World!</h1><p>Środowisko: {ENV}</p><p>Autor: <b>Bartosz Bryniarski!!!!!!!!!!!!!!!!!!!!!</b></p>")
